@@ -1,0 +1,112 @@
+
+.tabs-view #navlist {
+    padding: 0 0 10px 0;
+    margin: 0px;
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.tabs-view #navlist li {
+  list-style: none;
+  margin: 0px;
+  display: inline;
+}
+.tabs-view #navlist > li > a {
+  font-size: 14px;
+  padding: 13px 0;
+  border-bottom: 2px solid transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background: transparent;
+  text-decoration: none;
+  margin: 0 30px 0 0;
+  font-weight: 600;
+}
+.tabs-view #navlist .active a {
+    background: white;
+    border-bottom: 2px solid #006699;
+    color: #006699 !important;
+}
+
+.tabs-view #panels {
+  border: 0;
+  border-top: none;
+}
+.tabs-view .panel {
+  display: none;
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+}
+.tabs-view .panel.current {
+  display: block !important;
+}
+
+#tab-container.tabs-view {
+  width: 100%;
+  margin: 0 auto;
+}
+.panel-body{
+    padding: 0;
+}
+.panel-body span {
+    font-size: 14px;
+    line-height: 22px !important;
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+/*ACCORDION VIEW*/
+.accordion-view #navlist {
+  padding: 3px 0px;
+}
+
+.accordion-view #navlist li {
+  display: block;
+  margin: 0px auto;
+  padding:0px;
+  position: relative;
+}
+.accordion-view #navlist > li > a {
+    font-size: 14px;
+    padding: 5px 25px;
+    border: 1px solid transparent;
+    background: #e1e1e1;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 2px 0;
+    color: #999 !important;
+    font-weight: 600;
+}
+.accordion-view #navlist .active a {
+    background: #006699;
+    color: #fff !important;
+}
+.accordion-view #panels {
+  display: none;
+}
+
+.accordion-view .panel {
+    display: none;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    border-top: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.accordion-view .panel.current {
+  display: block;
+}
+#tab-container.accordion-view {
+  width: 100%;
+  margin: 0 auto;
+}
+.attributes .md {
+  background-color: #eee;
+  padding: 4px;
+  color: #000;
+}
